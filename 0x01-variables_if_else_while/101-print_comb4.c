@@ -27,7 +27,7 @@ putchar('0' + c);
 if (c + d + e != 9 + 8 + 7)
 {
 putchar(',');
-puts(' ');
+putchar(' ');
 }
 }
 c++;
