@@ -1,6 +1,6 @@
 #include <stdio.h>
 /**
- * man - main block
+ * main - main block
  * Description: assign a random number to the variable each time it is executed
  * prints last digit of the nuumber stored in the variable n
  * Return: always 0 (Success)
