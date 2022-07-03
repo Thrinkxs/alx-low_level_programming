@@ -1,7 +1,8 @@
 #include <stdio.h>
 /**
- * man -> assign a random number to the variable each time it is executed
- * prints last digit of th nuumber stored in the variable n
+ * man - main block
+ * Description: assign a random number to the variable each time it is executed
+ * prints last digit of the nuumber stored in the variable n
  * Return: always 0 (Success)
  */
 int main(void)
@@ -25,7 +26,7 @@ putchar(32);
 }
 }
 putchar(10); /**
-this is an ascii code for the new line
+*this is an ascii code for the new line
 	       */
 return (0);
 }
