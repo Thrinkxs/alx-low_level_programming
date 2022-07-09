@@ -3,7 +3,7 @@
  * print_times_table - prints the n times tablee, starting with 0
  * @n: number of the times table
  */
-int main(void)
+int _putchar(char)
 {
 int i, j, k;
 if (n >= 0 && n <= 15)
