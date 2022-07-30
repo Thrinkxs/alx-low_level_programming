@@ -1,5 +1,5 @@
 #include "main.h"
-#include <stdio.h>
+#include <stdlib.h>
 /**
  * string_nconcat - concatenates two strings
  * @s1: first string.
@@ -22,7 +22,7 @@ for (s2 = 0; s2[ls2] != '\0'; ls2++)
 if (n > ls2)
 n = ls2;
 lsout = ls1 + n;
-stdout = malloc(lsout + 1);
+sout = malloc(lsout + 1);
 if (sout == NULL)
 return (NULL);
 for (i = 0; i < lsout; i++)
