@@ -21,7 +21,7 @@ for (s1 = 0; s1[ls1] != '\0'; ls1++)
 for (s2 = 0; s2[ls2] != '\0'; ls2++)
 if (n > ls2)
 n = ls2;
-sout = ls1 + n;
+lsout = ls1 + n;
 stdout = malloc(lsout + 1);
 if (sout == NULL)
 return (NULL);
