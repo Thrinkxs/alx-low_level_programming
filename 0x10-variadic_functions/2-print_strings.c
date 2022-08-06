@@ -2,7 +2,7 @@
  * File: 2-print_strings.c
  * Auth: Emmanuel Omokhegbe
  */
-#include "variadic_functions.hh"
+#include "variadic_functions.h"
 #include <stdio.h>
 #include <stdarg.h>
 /**
@@ -13,16 +13,21 @@
  *
  * Description:if separator is NULL, (nil) is printed instead
  */
-void print_strings(const char *separator, cont unsigned int n,...)
+void print_strings(const char *separator, const unsigned int n, ...)
 {
-  va_list srings;
-  char *str;
-  unsigned int index;
-  for (index = 0, index < n; index++)
-    {
- 	str = va_arg(strings, char *);
-	else
-	  printf("%s", st);
-	if (index != (n - 1) && separator !- NULL
-	    printf("%s", separator);
-	    }
+va_list strings;
+char *str;
+unsigned int index;
+for (index = 0; index < n; index++)
+{
+str = va_arg(strings, char *);
+if (str == NULL)
+printf("(nil)");
+else
+printf("%s", str);
+if (index != (n - 1) && separator != NULL)
+printf("%s", separator);
+}
+printf("\n");
+va_end(strings);
+}
