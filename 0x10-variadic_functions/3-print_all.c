@@ -62,8 +62,8 @@ printf("%s", str);
 /**
  * print_all - Prints anything, followed by a new line.
  * @format: A string of characters representing the arguments types.
- * @...: A variable number of arguments to be printed.
- * Description: Any argument not of type char, int, float, or char * is  ignored.
+ * @..: A variable number of arguments to be printed.
+ * Description: Any argument not of type char, int, float,or char* is ignored.
  * If string argumen is NULL, ((nil) is printed instead.
  */
 void print_all(const char * const format, ...)
